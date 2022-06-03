@@ -4,26 +4,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Registration page </title>
+  <title>Registration Page </title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <form>
-    First Name: <input type= "text" maxlength= "20"/><br>
-    Last Name: <input type= "text" maxlength= "20"/><br>
-    Phone: <input type= "tel" maxlength= "20"/><br>
-    Gender: <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-    Country: <input type= "text" maxlength= "20"/><br>
-    State/province: <input type= "text" maxlength= "20"/><br>
-    Email: <input type= "email" maxlength= "20"/><br>
-    Password: <input type= "text" maxlength= "20"/><br>
-    Confirm password: <input type= "text" maxlength= "20"/><br>
-  </form>
-  <script src="script.js"></script>
-</body>
-<footer>
-  <button type="submit" <button style="background-color:blue; border-color:black" id="submit">Submit</button>
+
+<main>
+  <div class="login-form">
+    <form>
+      <h1>Register</h1>
+      <div class="content">
+        <div class="input-field">
+          <input type="text" required placeholder="First Name" autocomplete="nope">
+        </div>
+  
+        <div class="input-field">
+          <input type="text" required placeholder="Last Name" autocomplete="nope">
+        </div>
+  
+        <div class="input-field">
+          <input type="text" required placeholder="Phone" autocomplete="nope">
+        </div>
+  
+  
+        <div class="input_field select_option" id="gender">
+          <label for="gender">Gender</label>
+          <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+          <div 
+  
+          div class="input-field">
+          <input type="text" required placeholder="Country" autocomplete="nope">
+        </div>
+  
+        <div class="input-field">
+          <input type="text" required placeholder="State/Province" autocomplete="nope">
+        </div>
+  
+        <div class="input-field">
+          <input type="email" required placeholder="Email" autocomplete="nope">
+        </div>
+  
+        <div class="input-field">
+          <input type="password" placeholder="Password" required autocomplete="new-password">
+        </div>
+  
+        <div class="input-field">
+          <input type="password" required placeholder="Confirm Password" autocomplete="nope">
+        </div>
+        <a href="#" class="link">Forgot Your Password?</a>
+      </div>
+      <div class="action">
+        <button>Register</button>
+        <button>Sign in</button>
+      </div>
+    </form>
+  </div>
+</main>
+<footer class="content-footer">
+  <div>
+    <p>Welcome any time</p>
+  </div>
 </footer>
+</body>
 </html>
