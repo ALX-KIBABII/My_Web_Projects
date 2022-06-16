@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="relative py-8">
+        <div class="flex container max-w-7xl px-8 md:px-20 mx-auto items-center justify-between">
+            <img src="/assets/logo.svg" alt="sephens logo">
+            <ul class="hidden space-x-10 lg:flex">
+                <li><a href="#" class="hover:text-darkGrayishBlue">Pricing</a></li>
+                <li><a href="#" class="hover:text-darkGrayishBlue">Product</a></li>
+                <li><a href="#" class="hover:text-darkGrayishBlue">About Us</a></li>
+                <li><a href="#" class="hover:text-darkGrayishBlue">Career</a></li>
+                <li><a href="#" class="hover:text-darkGrayishBlue">Community</a></li>
+            </ul>
+            <a href="" class="hidden lg:block cursor-pointer py-4 px-9 text-white bg-brightRed rounded-full hover:bg-brightRedLight hover:drop-shadow-lg active:translate-y-0.5 transition-all">Get Started
+            </a>
+            <button class="block hamburger lg:hidden" aria-expanded="false">
+                <span class="hamburger-top bg-darkBlue"></span>
+                <span class="hamburger-middle bg-darkBlue"></span>
+                <span class="hamburger-bottom bg-darkBlue"></span>
+              </button>
+        </div>
+        <div class="mobile-nav lg:hidden">
+            <ul data-visible="false"
+              class="menu absolute left-6 right-6 flex flex-col items-center self-end py-8 mt-8 space-y-6 font-bold bg-white drop-shadow-md">
+              <a href="#">Pricing</a>
+              <a href="#">Product</a>
+              <a href="#">About us</a>
+              <a href="#">Careers</a>
+              <a href="#">Community</a>
+            </ul>
+          </div>
+    </nav>
+    <section class="hero">
+        <div
+          class="container space-x-10 max-w-7xl px-5 md:px-20 mx-auto mt-10 flex flex-col-reverse md:flex-row items-center">
+          <div class="flex flex-col space-y-9 items-center md:items-start md:w-1/2">
+            <h1 class="font-bold text-3xl font-bold max-w-md text-center md:text-left lg:text-5xl">Bring
+              everyone
+              together to build
+              better
+              products
+            </h1>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Manage makes it simple for software teams to
+              plan day-to-day tasks while keeping the larger team goals in view.</p>
+            <a
+              class="cursor-pointer py-4 px-9 text-white bg-brightRed rounded-full hover:bg-brightRedLight hover:drop-shadow-lg active:translate-y-0.5 transition-all">Get
+              Started</a>
+          </div>
+          <div class="md:w-1/2 hero-img">
+            <img src="images/illustration-intro.svg" alt="charts illustration">
+          </div>
+        </div>
+      </section>
+</body>
+</html>
