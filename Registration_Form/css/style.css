@@ -19,7 +19,7 @@ body{
     margin-top: 3rem;
     margin-left: 5rem;
 
-    grid-template-columns: 1fr 500px 1fr;
+    grid-template-columns: 1fr 400px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
     gap: 15px;
@@ -66,8 +66,8 @@ body{
     background-color:  hsl(0, 0%, 95%);
     grid-row-start: 2;
     grid-row-end: 3;
-    border-radius: 5px;
-    height: 70vh;
+    border-radius: 10px;
+    height: 65vh;
     
 
 }
@@ -88,4 +88,26 @@ body{
     margin-top: 1rem;
     color: hsl(0, 0%, 95%);
     font-family: 'Poppins', sans-serif;
+}
+
+input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: Grayish Blue: hsl(246, 25%, 77%);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+button{
+    width: 100%;
+    background-color: hsl(154, 59%, 51%)
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
