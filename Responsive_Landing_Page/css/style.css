@@ -1,0 +1,112 @@
+@import url('https://fontawesome.com/');
+@import url('https://icomoon.io/');
+@import url('https://ionicons.com/');
+@import url('https://icomoon.io/');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.google.com/specimen/Poppins');
+/* CSS Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+  }
+  
+  /* Smooth scroll effect */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+
+  body {
+    font-family: "Roboto", sans-serf;
+  }
+
+  nav {
+    background: hsl(193, 100%, 96%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  #logo_img{
+    width: 80px;
+  }
+
+  .nav_item{
+    width: 140px;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+    background-color: white;
+    padding:5px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    border-color: transparent;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .div_one{
+    background: hsl(193, 100%, 96%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+  }
+
+  .div_one_one p{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #header_one{
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: bold;
+
+  }
+
+  #mockup_image{
+    height: 500px;
+    width: 50vw;
+  }
+  #get_started_btn{
+    width: 200px;
+    margin-top: 2rem;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding:15px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    border-color: transparent;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .div_one_one{
+    margin: 1rem;
+  }
+  .div_one_two{
+    margin: 1rem;
+  }
