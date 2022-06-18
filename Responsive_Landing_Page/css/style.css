@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 @import url('https://fontawesome.com/');
 @import url('https://icomoon.io/');
 @import url('https://ionicons.com/');
 @import url('https://icomoon.io/');
 @import url('https://fonts.google.com/specimen/Open+Sans');
-@import url('https://fonts.google.com/specimen/Poppins');
-/* CSS Variables */
 :root {
     --normal-font: 400;
     --bold-font: 600;
@@ -29,7 +28,11 @@
   }
 
   body {
-    font-family: "Roboto", sans-serf;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  li{
+    list-style-type: none;
   }
 
   nav {
@@ -60,9 +63,16 @@
     border-radius: 30px;
     box-shadow: 2px 3px 2px #f1f1f1;
     border-color: transparent;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
+  }
+
+  .nav_item:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    transition: none;
+    cursor: pointer;
   }
 
   .div_one{
@@ -75,13 +85,14 @@
   }
 
   .div_one_one p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
   }
 
   #header_one{
     font-weight: 500;
     margin-bottom: 2rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: bold;
 
@@ -100,13 +111,72 @@
     border-radius: 30px;
     box-shadow: 2px 3px 2px #f1f1f1;
     border-color: transparent;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
   }
+
+  #get_started_btn:hover{
+    background-color: white;
+    color: black;
+    transition: none;
+    cursor: pointer;
+  }
+
   .div_one_one{
     margin: 1rem;
   }
   .div_one_two{
     margin: 1rem;
+    padding: 20px;
   }
+
+  .div_two{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    margin: 4rem;
+  }
+
+  #grow_together_image{
+    height: 350px;
+    width: 30vw;
+  }
+
+  .div_two h3{
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .div_two p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    display: block;
+  }
+
+  .ready_build_community{
+    width: 500px;
+    height: 250px;
+    background: white;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    margin: 4rem;
+    text-align: center;
+  }
+
+
+  
+
+
+
+
+  
