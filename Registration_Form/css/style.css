@@ -44,7 +44,7 @@ body{
 .item_one {
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: hsl(248, 32%, 49%);
+    background-color: hsl(148, 86%, 17%)
     grid-row-start: 1;
     grid-row-end: 2;
     height: 50px;
